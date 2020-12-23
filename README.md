@@ -1,2 +1,2 @@
-# javascriptmas-2020
+24 days of #JavaScriptmas
 solutions from https://scrimba.com/learn/adventcalendar
