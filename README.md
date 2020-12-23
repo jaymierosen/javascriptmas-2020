@@ -1,2 +1,2 @@
 # 24 days of #JavaScriptmas
-solutions from https://scrimba.com/learn/adventcalendar
+solutions for https://scrimba.com/learn/adventcalendar
