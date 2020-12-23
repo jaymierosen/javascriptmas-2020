@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vowel &amp; Consonant</title>
+</head>
+<body>
+  <script>
+      function countVowelConsonant(str) {
+      // write code here
+      let splitStr = str.split("");
+      let vowel = 1;
+      let consonant = 2;
+      let numArr = [];
+      for(i = 0; i < splitStr.length; i++) {
+        if(splitStr[i] === 'a' || splitStr[i] === 'e' || splitStr[i] === 'i' || splitStr[i] === 'o' || splitStr[i] === 'u') {
+            numArr.push(vowel);
+        } else {
+            numArr.push(consonant);
+        }
+        let totalArr = numArr.reduce((acc, curr) => {
+            return acc + curr;
+        }, 0);
+        return totalArr;
+      }
+    }
+  </script>
+</body>
+</html>
